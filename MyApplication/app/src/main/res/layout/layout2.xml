@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="5dp">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:checked="true"
+                android:drawableTop="@drawable/ic_launcher_foreground"
+                android:text="微信"/>
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:checked="true"
+                android:drawableTop="@drawable/ic_launcher_foreground"
+                android:text="通讯录"/>
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:checked="true"
+                android:drawableTop="@drawable/ic_launcher_foreground"
+                android:text="发现"/>
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:checked="true"
+                android:drawableTop="@drawable/ic_launcher_foreground"
+                android:text="我"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>
